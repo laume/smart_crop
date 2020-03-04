@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dfede9db-9a6d-4662-a00c-17fc456dfb6f" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YcixiS0wLbFHVVCh6J3RVTqiik" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="smart_crop" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dfede9db-9a6d-4662-a00c-17fc456dfb6f" name="Default" comment="" />
+      <created>1583230993147</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583230993147</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="483" y="-880" key="SettingsEditor" timestamp="1583270961147">
+      <screen x="-332" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="483" y="-880" key="SettingsEditor/0.23.1280.728/-332.-1057.1920.1057@-332.-1057.1920.1057" timestamp="1583270961147" />
+    <state x="-138" y="-1149" key="SettingsEditor/0.23.1280.777/-1665.-1417.3440.1368@-1665.-1417.3440.1368" timestamp="1583248648912" />
+    <state x="317" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1583248549073">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="317" y="244" key="com.intellij.ide.util.TipDialog/0.23.1280.777/-1665.-1417.3440.1368@-1665.-1417.3440.1368" timestamp="1583248549073" />
+    <state x="322" y="-845" width="700" height="530" key="recent.locations.popup" timestamp="1583330217079">
+      <screen x="-332" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="322" y="-845" width="700" height="530" key="recent.locations.popup/0.23.1280.728/-332.-1057.1920.1057@-332.-1057.1920.1057" timestamp="1583330217079" />
+  </component>
+</project>

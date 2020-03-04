@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Smart Image Crop</title>
+<meta name="'viewport", content="width=device-width, initial-scale=1"><style>
+body {
+margin: 0
+font-family: Arial, Helvetica, sans-serif;
+}
+.hero-image {
+background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url("https://images.unsplash.com/photo-1517105274840-437212774105?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
+background-color: #cccccc;
+height: 800px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+.hero-text {
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+}
+input[type=file] {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: block;
+width: 200px;
+color: white;
+justify-content: center;
+align-items: center;
+text-align: center;
+box-sizing: border-box;
+border-style: solid white;
+border-width: 2px;
+border-radius: 2px;
+}
+input[type=submit] {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: block;
+width: 200px;
+font-size: 1.5em;
+color: white;
+justify-content: center;
+align-items: center;
+text-align: center;
+box-sizing: border-box;
+background-color: #DC143C;
+border-radius: 4px;
+}
+</style>
+</head>
+<body>
+<div class="hero-image">
+<div class="hero-text">
+<h1 style="font-size:50px">Smart Image Crop</h1>
+<h3>Upload your CAT or DOG Image to see how smart crop works! </h3>
+<form method ='post' enctype=multipart/form-data>
+<input type="file" name="file">
+<input type="submit" value="upload"><ul class="actions">
+</div>
+</div>
+</body>
+</html>
+
+
