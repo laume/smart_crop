@@ -1,5 +1,5 @@
 from flask import Flask, request, redirect, render_template, send_file, after_this_request, make_response, render_template_string, send_from_directory
-from .utils import smart_crop_pipleline, files_to_df
+from .utils import smart_crop_pipleline, files_to_df, load_model_json
 import pandas as pd
 import matplotlib.pyplot as plt
 from PIL import Image
@@ -22,7 +22,12 @@ PRED_SETTINGS = {
 
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'PNG', 'JPG', 'JPEG'])
 UPLOAD_FOLDER = 'uploads'
-TARGET_SIZE = (400, 400)
+TARGET_SIZE = (600, 600)
+
+MODEL = load_model_json(
+    PRED_SETTINGS['model_acrh'],
+    PRED_SETTINGS['weights'],
+)
 
 
 app = Flask(__name__, static_url_path="", static_folder=UPLOAD_FOLDER)
@@ -78,6 +83,7 @@ def crop_file():
                 df_from_dir,
                 'filename',
                 PRED_SETTINGS,
+                MODEL,
                 target_size=TARGET_SIZE
             )
 

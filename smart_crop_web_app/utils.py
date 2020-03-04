@@ -41,15 +41,12 @@ def smart_crop_pipleline(
         img_df: pd.DataFrame,
         path_col: str,
         pred_settings: dict,
+        model,
         target_ratio: Optional[tuple] = (1, 1),
         target_size: Optional[tuple] = None,
         return_df_without_crop: Optional[bool] = False,
 ) -> list:
     result = []
-    model = load_model_json(
-        pred_settings['model_acrh'],
-        pred_settings['weights'],
-    )
     image_set = imgs_for_pred(
         img_df,
         path_col,
@@ -149,6 +146,7 @@ def bbox_crop_px(
         return img_arr[int(start_h):int(end_h), int(start_w):int(end_w)]
     else:
         print(f'{target_orient} target_ratio not supported yet! Choose (1, 1) or check again later :)')
+
 
 def files_to_df(folder: str, allowed_extensions: set) -> pd.DataFrame:
     all_files = []
