@@ -1,11 +1,11 @@
 # Smart image crop
 
-Used dataset:
-https://www.kaggle.com/devdgohil/the-oxfordiiit-pet-dataset 
+The inspiration to create Smart Image Crop came from using GetPet application https://www.getpet.lt/.
 
-Images from GetPet project https://www.getpet.lt/ and https://unsplash.com/ was used for predictions.
+Some dog profile images while opening it - was cropped not nicely.
 
-The main task is to predict dogs and cats face possition and crop image by using these data.
+I used the dataset from kaggle with labeled cat and dog head possitions: https://www.kaggle.com/devdgohil/the-oxfordiiit-pet-dataset
 
-First task is to get square images.
-Later it can be adjusted to get other ratios.
+The main task was to predict dog or cat face possition and crop its image by using these data.
+
+First task was to get square images. Later this model can be extended to get other image ratios.
