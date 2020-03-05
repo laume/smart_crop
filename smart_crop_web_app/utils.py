@@ -2,10 +2,10 @@ from typing import Optional, Union
 import tensorflow as tf
 from tensorflow import keras
 from PIL import Image
-from .image import ImageParser, ImageResizer
+from image import ImageParser, ImageResizer
 import numpy as np
 import pandas as pd
-from .utils_multi_labels import get_category_name
+from utils_multi_labels import get_category_name
 import cv2
 import glob
 
@@ -15,6 +15,7 @@ def load_model_json(model_arch_path, model_weights_path):
         model = keras.models.model_from_json(f.read())
     model.load_weights(model_weights_path)
     return model
+
 
 def imgs_for_pred(
         df: pd.DataFrame,

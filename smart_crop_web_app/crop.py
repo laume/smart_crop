@@ -1,14 +1,11 @@
 from flask import Flask, request, redirect, render_template, send_file, after_this_request, make_response, render_template_string, send_from_directory
-from .utils import smart_crop_pipleline, files_to_df, load_model_json
+from utils import smart_crop_pipleline, files_to_df, load_model_json
 import pandas as pd
 import matplotlib.pyplot as plt
 from PIL import Image
 import numpy as np
-import io
-import base64
 import os
 import glob
-
 from werkzeug.utils import secure_filename
 
 
@@ -34,9 +31,6 @@ app = Flask(__name__, static_url_path="", static_folder=UPLOAD_FOLDER)
 app.config['ENV'] = 'development'
 app.config['DEBUG'] = True
 app.config['TESTING'] = True
-# app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
-
-
 
 
 def allowed_file(filename):
@@ -59,9 +53,6 @@ def crop_file():
     if request.method == 'POST':
         empty_dir(app.static_folder, ALLOWED_EXTENSIONS)
         print(request.files)
-
-        # files = request.files.getlist("file")
-        # for file in files:
 
         if 'file' not in request.files:
             print('file not uploaded')
@@ -99,6 +90,7 @@ def crop_file():
         # return send_file(os.path.join(app.static_folder, filename_res), mimetype='image/gif')
         ###
 
+        # downloads file
         # response = send_file(filename_res, mimetype='image/jpeg', attachment_filename=category, as_attachment=False)
         # response.headers["x-filename"] = category
         # response.headers["Access-Control-Expose-Headers"] = 'x-filename'
@@ -109,10 +101,5 @@ def crop_file():
         return response
 
 
-        #### or detection example
-        # return render_template('result.html', results=results)
-
-
-
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host='0.0.0.0', debug=True)

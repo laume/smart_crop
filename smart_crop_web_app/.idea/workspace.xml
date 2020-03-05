@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfede9db-9a6d-4662-a00c-17fc456dfb6f" name="Default" comment="" />
+    <list default="true" id="dfede9db-9a6d-4662-a00c-17fc456dfb6f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crop.py" beforeDir="false" afterPath="$PROJECT_DIR$/crop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,10 +87,11 @@
     </state>
     <state x="483" y="-880" key="SettingsEditor/0.23.1280.728/-332.-1057.1920.1057@-332.-1057.1920.1057" timestamp="1583270961147" />
     <state x="-138" y="-1149" key="SettingsEditor/0.23.1280.777/-1665.-1417.3440.1368@-1665.-1417.3440.1368" timestamp="1583248648912" />
-    <state x="317" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1583248549073">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="357" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1583408246441">
+      <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="317" y="244" key="com.intellij.ide.util.TipDialog/0.23.1280.777/-1665.-1417.3440.1368@-1665.-1417.3440.1368" timestamp="1583248549073" />
+    <state x="357" y="259" key="com.intellij.ide.util.TipDialog/0.23.1440.828@0.23.1440.828" timestamp="1583408246441" />
     <state x="322" y="-845" width="700" height="530" key="recent.locations.popup" timestamp="1583330217079">
       <screen x="-332" y="-1057" width="1920" height="1057" />
     </state>
