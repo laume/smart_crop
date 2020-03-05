@@ -9,3 +9,8 @@ I used the dataset from kaggle with labeled cat and dog head possitions: https:/
 The main task was to predict dog or cat face possition and crop its image by using these data.
 
 First task was to get square images. Later this model can be extended to get other image ratios.
+
+
+# Check how it works:
+
+https://smart-crop-app.azurewebsites.net
